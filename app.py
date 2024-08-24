@@ -41,6 +41,4 @@ def index():
     return render_template("index.html", translated_text=translated_text, error_message=error_message, languages=supported_languages)
 
 if __name__ == "__main__":
-    app.run(port=5001)  # Change the port number
-
-
+    app.run(debug=True)
