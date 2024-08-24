@@ -41,6 +41,6 @@ def index():
     return render_template("index.html", translated_text=translated_text, error_message=error_message, languages=supported_languages)
 
 if __name__ == "__main__":
-    import os
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host='0.0.0.0', port=port)
+    app.run(port=5001)  # Change the port number
+
+
