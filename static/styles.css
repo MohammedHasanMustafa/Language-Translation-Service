@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2b5876, #4e4376);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.translate-btn {
+    background: #ff512f;
+    background: linear-gradient(to right, #dd2476, #ff512f);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.translate-btn:hover {
+    background: #ff512f;
+}
+
+.output-group {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.output-group h2 {
+    margin-bottom: 1rem;
+}
+
+.output-group p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.error-group {
+    margin-top: 1.5rem;
+    color: #ff4b4b;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .translate-btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
