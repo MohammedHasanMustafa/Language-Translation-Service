@@ -14,13 +14,12 @@ A web application for translating text between multiple languages using Flask an
 - **Translation API**: Google Translate (`googletrans` library)
 - **Frontend**: HTML with Flask templates
 - **Deployment Platform**: Railway Cloud
-- **Additional**: Streamlit for extended functionality
 
 ## Setup and Installation
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/language-translation-service.git
+    git clone https://github.com/MohammedHasanMustafa/language-translation-service.git
     cd language-translation-service
     ```
 
@@ -72,5 +71,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+For questions or feedback, please contact [hm248228@gmail.com](hm248228@gmail.com).
 
