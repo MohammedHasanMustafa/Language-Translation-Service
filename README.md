@@ -65,9 +65,6 @@ A web application for translating text between multiple languages using Flask an
 
 Feel free to submit issues or pull requests. Contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
